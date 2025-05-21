@@ -46,18 +46,3 @@ BDD-OIA: We use preprocessed embeddings. Download these from the RSBench data at
 cd expressive/experiments/rsbench
 uv run nesydiffusion.py --dataset boia --task boia --lr 0.0001 --batch_size 256 --epochs 30 --w_denoise_weight 0.000005 --entropy_weight 2.0 --backbone fullentangled
 ```
-
-## Citation
-If you use this work, please cite 
-
-```
-@misc{vankrieken2025neurosymbolicdiffusionmodels,
-      title={Neurosymbolic Diffusion Models}, 
-      author={Emile van Krieken and Pasquale Minervini and Edoardo Ponti and Antonio Vergari},
-      year={2025},
-      eprint={2505.13138},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.13138}, 
-}
-```

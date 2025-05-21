@@ -27,8 +27,7 @@ def safe_sample_categorical(
     if shape == None:
         shape = torch.Size([])
     if distr.logits.device.type == "mps":
-        # Sample on CPU if using MPS since multinomial is bugged on MPS:
-        # https://github.com/pytorch/pytorch/issues/136623
+        # Sample on CPU if using MPS since multinomial is bugged on MPS
         distr_cpu = torch.distributions.Categorical(logits=distr.logits.cpu())
         return distr_cpu.sample(shape).to(distr.logits.device)
     return distr.sample(shape)

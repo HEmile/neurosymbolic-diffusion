@@ -7,7 +7,7 @@ name = "expressive"
 version = "0.1.0"
 description = "Neurosymbolic Diffusion"
 authors = [
-    {name = "hemile", email = "Emile.van.Krieken@ed.ac.uk"}
+    {name = "ANON", email = "ANON@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9,<=3.13"
