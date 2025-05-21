@@ -1,4 +1,4 @@
-README from original repository below. 
+NeSyDM authors: The README below is from the original repository at https://github.com/unitn-sml/rsbench-code/tree/main/rsseval. The LICENSE in this directory is also taken from the original repository. 
 
 # Evaluate models on "A Benchmark Suite for Systematically Evaluating Reasoning Shortcuts"
 
