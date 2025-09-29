@@ -1,3 +1,7 @@
+Code for paper "Neurosymbolic Diffusion Models" (NeurIPS 2025). 
+
+Download the paper from https://arxiv.org/abs/2505.13138 . 
+
 ## Setup
 Install `uv`, then run `uv sync`. 
 
@@ -51,13 +55,12 @@ uv run nesydiffusion.py --dataset boia --task boia --lr 0.0001 --batch_size 256 
 If you use this work, please cite 
 
 ```
-@misc{vankrieken2025neurosymbolicdiffusionmodels,
-      title={Neurosymbolic Diffusion Models}, 
-      author={Emile van Krieken and Pasquale Minervini and Edoardo Ponti and Antonio Vergari},
-      year={2025},
-      eprint={2505.13138},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.13138}, 
+@inproceedings{
+anonymous2025neurosymbolic,
+title={Neurosymbolic Diffusion Models},
+author={Anonymous},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=HfdzglsZQH}
 }
 ```
