@@ -1,4 +1,4 @@
-Code for paper "Neurosymbolic Diffusion Models" (NeurIPS 2025). 
+Code for paper "Neurosymbolic Diffusion Models" (NeSyDMs) (NeurIPS 2025). 
 
 Download the paper from https://arxiv.org/abs/2505.13138 . 
 
@@ -52,13 +52,13 @@ uv run nesydiffusion.py --dataset boia --task boia --lr 0.0001 --batch_size 256 
 ```
 
 ## Citation
-If you use this work, please cite 
+If you use this work, please cite NeSy Diffusion Models as 
 
 ```
 @inproceedings{
-anonymous2025neurosymbolic,
+krieken2025neurosymbolic,
 title={Neurosymbolic Diffusion Models},
-author={Anonymous},
+author={Emile van Krieken and Pasquale Minervini and Edoardo Ponti and Antonio Vergari},
 booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
 year={2025},
 url={https://openreview.net/forum?id=HfdzglsZQH}
