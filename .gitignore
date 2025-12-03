@@ -20,7 +20,7 @@ slurm*.out
 expressive/experiments/rsbench/wandb/
 expressive/experiments/rsbench/out/
 
-data/
+# data/
 uv.lock
 
 rssgen/build/
