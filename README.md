@@ -30,7 +30,7 @@ Path Planning 30x30:
 ```
 ./expressive/experiments/path_planning/download.sh  # If data is not yet downloaded
 uv run expressive/experiments/path_planning/data/merge.py # Data postprocessing step required for N=30
-uv run expressive/experiments/path_planning/path_planning.py --grid_size 30 --loss_S 8 --variational_K 1 --test_K 8
+uv run expressive/experiments/path_planning/path_planning.py --grid_size 30 --loss_S 4 --variational_K 2 --test_K 2 --variational_T 2
 ```
 
 MNIST Half: 
