@@ -79,7 +79,7 @@ class PathPlanningArguments(AbsArguments):
     use_ray: bool = True
     loss_S: int = 16
     variational_K: int = 4
-    test_K: int = 4
+    test_K: int = 8
     variational_T: int = 20
     test_T: int = 20
     save_model: bool = True
